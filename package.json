@@ -1,0 +1,27 @@
+{
+  "name": "travel-info",
+  "version": "0.0.1",
+  "description": "provide various travel info",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guozheng/wechat-travel.git"
+  },
+  "keywords": [
+    "wechat",
+    "miniapp",
+    "js"
+  ],
+  "author": "Guozheng Ge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guozheng/wechat-travel/issues"
+  },
+  "homepage": "https://github.com/guozheng/wechat-travel#readme",
+  "dependencies": {
+    "lin-ui": "^0.8.10"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "l-icon": "/miniprogram_npm/lin-ui/button/index",
+    "l-segment": "/miniprogram_npm/lin-ui/segment/index",
+    "l-segment-item": "/miniprogram_npm/lin-ui/segment-item/index"
+  },
+  "navigationBarTitleText": "海外疫情"
+}

@@ -1,13 +1,14 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/covid/covid"
+    "pages/search/search",
+    "pages/news/news",
+    "pages/about/about"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "万水千山",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#b30000",
+    "navigationBarTitleText": "海外疫情",
+    "navigationBarTextStyle":"white"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
