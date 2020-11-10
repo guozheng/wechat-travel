@@ -1,0 +1,38 @@
+<view class="page">
+  <view class="page__bd">
+    <l-segment bind:linchange="onTabChange">
+        <l-segment-item tab="搜索" key="search" />
+        <l-segment-item tab="新闻" key="news" />
+        <l-segment-item tab="关于" key="about" />
+    </l-segment>
+
+    <!-- search view -->
+    <view wx:if="{{showSearchView}}">
+      <l-input label="国家" type="text" clear="{{true}}" required="{{true}}" placeholder="请输入国家，比如：美国"  />
+      <l-input label="州/省" type="text" clear="{{true}}" required="{{true}}" placeholder="请输入州/省，比如：加利福尼亚"  />
+      <view class="container">
+        <l-button type="error" shape="semicircle" plain="{{true}}">取消</l-button>
+        <l-button type="default" shape="semicircle" plain="{{true}}">确定</l-button>
+      </view>
+    </view>
+
+    <!-- news view -->
+    <view wx:if="{{showNewsView}}">
+      <l-card type="primary" image="/images/covid-vaccine.png" title="辉瑞新冠疫苗">
+        <view class="content">
+          11月9日，全球制药巨头辉瑞宣布其与Biotech联合研发的新冠疫苗，在三期临床实验中取得重大进展，在第二次注射7天后，疫苗有效率超过90%以上。
+        </view>
+      </l-card>
+      <l-card type="primary" image="/images/shanghai-covid.png" title="上海新冠病例">
+        <view class="content">
+          11月9日晚6点，上海市第86场新冠肺炎疫情防控系列新闻发布会上，浦东新区副区长李国华介绍，浦东新区人民医院发热门诊今晨报告1例疑似新冠肺炎病例，经市疾控中心复核，核酸检测结果为阳性。结合临床、影像学表现和实验室核酸检测结果，诊断为新冠肺炎确诊病例。
+        </view>
+      </l-card>
+    </view>
+    
+    <!-- about view -->
+    <view wx:if="{{showAboutView}}">
+      <text>感谢使用，欢迎提供宝贵意见！</text>
+    </view>
+  </view>
+</view>

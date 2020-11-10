@@ -1,9 +1,0 @@
-<view class="page">
-  <view class="page__bd">
-    <l-segment bind:linchange="changeTabs">
-        <l-segment-item tab="搜索" key="search" />
-        <l-segment-item tab="新闻" key="news" />
-        <l-segment-item tab="关于" key="about" />
-    </l-segment>
-  </view>
-</view>
