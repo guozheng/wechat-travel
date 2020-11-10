@@ -1,11 +1,12 @@
 {
   "pages":[
-    "index/index"
+    "pages/index/index",
+    "pages/covid/covid"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "万水千山",
     "navigationBarTextStyle":"black"
   },
   "style": "v2",

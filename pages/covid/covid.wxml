@@ -1,0 +1,5 @@
+<view class="page">
+  <view class="page__bd">
+    <text class="title">Search for COVID-19 testing labs</text>
+  </view>
+</view>

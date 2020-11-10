@@ -1,0 +1,8 @@
+<view class="page">
+  <view class="page__bd">
+    <text class="title">您好, {{name}}，欢迎使用！</text>
+    <view class="btn-area">  
+      <navigator url="/pages/covid/covid" hover-class="navigator-hover">搜索COVID-19测试</navigator>  
+    </view>
+  </view>
+</view>
